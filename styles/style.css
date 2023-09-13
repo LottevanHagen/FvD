@@ -40,8 +40,11 @@
 		   url(../assets/Gotham-Font/GothamMedium_1.woff) format('woff'),
 		   url(../assets/Gotham-Font/GothamMediumItalic.woff) format('woff');
   }
+ 
   
-  body {
+  /* Homepage */
+
+  .homepage {
 	  background-color: #FBAE17;
 	  font-family: 'Gotham';
 	  line-height: 150%;
@@ -49,22 +52,32 @@
 	 
   }
   
-  nav{
+  .homepage header button {
+	background-color: #FBAE17;
+	border: none;
+  }
+
+  .homepage footer button {
+	background-color: #FBAE17;
+	border: none;
+  }
+
+.homepage nav{
 	  font-family: 'Gotham';
   }
   
-  p {
+  .homepage p {
 	  font-weight: 400;
 	  font-style: italic;
   }
 
 
-  h2 {
+ .homepage h2 {
 	  font-weight: 900;
   }
   
   
-  main section {
+  .homepage main section {
 	  color: white;
 	  width: 100%;
 	  aspect-ratio: 9/16;
@@ -75,23 +88,23 @@
 	  margin-bottom: 2em;
   }
 
-  main section > *:first-child {
+  .homepage main section > *:first-child {
 	margin-top: auto;
   }
   
-  main section:nth-of-type(1){
+ .homepage main section:nth-of-type(1){
 	  background-image: url("../images/vangoghenmeer.jpeg");
   }
   
-  main section:nth-of-type(2){
+ .homepage main section:nth-of-type(2){
 	  background-image: url("../images/zonnebloemen.jpeg");
   }
   
-  main section:nth-of-type(3){
+ .homepage main section:nth-of-type(3){
 	  background-image: url("../images/kerkje.jpeg");
   }
   
-  main section:nth-of-type(4){
+ .homepage main section:nth-of-type(4){
 	background-image: url("../images/vangogh.jpeg"); 
   }
   
