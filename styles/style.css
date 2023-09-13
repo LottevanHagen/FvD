@@ -10,9 +10,6 @@
   }
   
   
-  
-  
-  
   /*********************/
   /* CUSTOM PROPERTIES */
   /*********************/
@@ -21,18 +18,10 @@
 	  --color-text:#111;
 	  --color-background:#FBAE17;
   
-	  /* Kijk even of je nog wat extras met de custom properties kan doen! is erg
-	  handig namelijk en scheelt je later veel tijd mocht je nog wat willen aanpassen :)
-	  
-	  groetjes,
-	  Yara
-	  */
+	
   }
   
-  
-  
-  
-  
+
   /****************/
   /* JOUW STYLING */
   /****************/
@@ -41,15 +30,15 @@
   
   @font-face {
 	  font-family: 'Gotham';
-	  src: url(../assets/Gotham-Font/GothamBold.ttf) format('opentype'),
-		   url(../assets/Gotham-Font/GothamBook.ttf) format('opentype'),
-		   url(../assets/Gotham-Font/GothamBookItalic.ttf) format('opentype'),
-		   url(../assets/Gotham-Font/GothamBoldItalic.ttf) format('opentype'),
-		   url(../assets/Gotham-Font/GothamLight.ttf) format('opentype'),
-		   url(../assets/Gotham-Font/GothamLightItalic.ttf) format('opentype'),
-		   url(../assets/Gotham-Font/GothamMedium.ttf) format('opentype'),
-		   url(../assets/Gotham-Font/GothamMedium_1.ttf) format('opentype'),
-		   url(../assets/Gotham-Font/GothamMediumItalic.ttf) format('opentype');
+	  src: url(../assets/Gotham-Font/GothamBold.woff) format('woff'),
+		   url(../assets/Gotham-Font/GothamBook.woff) format('woff'),
+		   url(../assets/Gotham-Font/GothamBookItalic.woff) format('woff'),
+		   url(../assets/Gotham-Font/GothamBoldItalic.woff) format('woff'),
+		   url(../assets/Gotham-Font/GothamLight.woff) format('woff'),
+		   url(../assets/Gotham-Font/GothamLightItalic.woff) format('woff'),
+		   url(../assets/Gotham-Font/GothamMedium.woff) format('woff'),
+		   url(../assets/Gotham-Font/GothamMedium_1.woff) format('woff'),
+		   url(../assets/Gotham-Font/GothamMediumItalic.woff) format('woff');
   }
   
   body {
@@ -57,26 +46,7 @@
 	  font-family: 'Gotham';
 	  line-height: 150%;
   
-	  /* aan te raden voor je om niet een font-family om de gehele body neer te zetten,
-	  dit voor het geval je wel ooit een nieuw font er in wil zetten of een font wil weghalen
-	  en dan kan hij raar gaan doen.
-	  Liever dus fonts gewoon per element zetten, maar je kan door middel van komma's meerdere 
-	  elementen 1 styling geven: 
-	  
-	  h1, h2, p {
-		  font-family: 'Gotham';
-	  }
-	  
-	  ook is het aan te raden om altijd een backup font te kiezen voor het geval dat je gotham
-	  font niet wil laden of dat hij het niet doet (ook door kommas)
-  
-	  h1, h2, p {
-		  font-family: 'Gotham', Helvetica, Arial, Sans-Serif;
-	  }
-	  
-	  groetjes
-	  Yara
-	  */
+	 
   }
   
   nav{
@@ -93,13 +63,6 @@
 	  font-weight: 900;
   }
   
-  /* Deze p en h2 styling heb ik even toegevoegd om te kijken of het werkte, en om aan te kunnen geven
-  dat je zelf bij ieder element nog de font-weight en font-style aan kan passen. Dit kan je zelf natuurlijk
-  nog veranderen als je wilt :) 
-  
-  groetjes
-  Yara
-  */
   
   main section {
 	  color: white;
@@ -117,18 +80,18 @@
   }
   
   main section:nth-of-type(1){
-	  background-image: url("../images/gustavklimt.png");
+	  background-image: url("../images/vangoghenmeer.jpeg");
   }
   
   main section:nth-of-type(2){
-	  background-image: url("../images/eenden.png");
+	  background-image: url("../images/zonnebloemen.jpeg");
   }
   
   main section:nth-of-type(3){
-	  background-image: url("../images/vangogh.jpeg");
+	  background-image: url("../images/kerkje.jpeg");
   }
   
   main section:nth-of-type(4){
-	  background-image: url("../images/cadeauinspiratie.jpeg");
+	background-image: url("../images/vangogh.jpeg"); 
   }
   
