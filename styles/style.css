@@ -22,14 +22,6 @@
 	
   }
   
-  h2 {
-	font-family: 'GothamBook';
-	font-size: 1.8em;
-	font-weight: lighter;
-	line-height: 1.1em;
-	color: var(--color-text-h2)
-  }
-
   /****************/
   /* JOUW STYLING */
   /****************/
@@ -58,6 +50,13 @@ body {
 }
 
 /* Homepage */
+.homepage h2 {
+	font-family: 'GothamBook';
+	font-size: 1.8em;
+	font-weight: lighter;
+	line-height: 1.1em;
+	color: var(--color-text-h2)
+  }
 
 .homepage nav{
 	font-family: 'Gotham', sans-serif;
@@ -117,8 +116,12 @@ header nav {
 	bottom: 0;
 	z-index: 1;
 	padding: 2em;
-	
 }
+
+.vangoghpage header nav {
+	background-color: #DACC98;
+}
+
 
 header nav ul {
 	padding: 0em;
@@ -280,7 +283,7 @@ header nav.toonMenu {
   /* footer */
 
   .homepage main footer p:first-of-type {
-	font-size: 2.8em;
+	font-size: 1.8em;
 	font-family: 'GothamBook';
 	margin-top: 2em;
 	line-height: 1.1em;
@@ -294,20 +297,16 @@ header nav.toonMenu {
 
 
   .homepage main footer button {
-	background-color: #FFCE01;
+	background: none;
 	border: none;
 	
   }
 
-  .homepage main footer img {
-	width: 9em;
-	display: flex;
-	justify-content: column;
-  }
-
   .homepage main footer button img {
 	width: 3em;
-	margin-left: 20em;
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
   }
 
   .homepage main footer ul {
@@ -344,22 +343,275 @@ header nav.toonMenu {
 	font: 'Gotham';
   }
 
-  .vangoghpage header button:first-of-type {
+  .vangoghpage nav{
+	font-family: 'Gotham', sans-serif;
+}
+  
+  
+.vangoghpage header button:first-of-type {
 	background-color: #DACC98;
 	border: none;
   }
 
-  .vangoghpage header button:last-of-type {
+.vangoghpage header button:last-of-type {
 	background-color: #DACC98;
 	border: none;
   }
 
-  .vangoghpage footer button {
-	background-color: #DACC98;
+  .vangoghpage header section:first-of-type {
+	display: flex;
+	flex-direction: row;
+	padding: .5em;
+	justify-content: space-between;
+  }
+
+  .vangoghpage header section section {
+	margin-top: -3em;
+	margin-left: -1em;
+  }
+
+  .vangoghpage header section section button {
+	padding-right: 2em;
+  }
+
+  .vangoghpage header section section button img {
+	width: 1.5em;
+	height: 1.5em;
+  }
+
+.vangoghpage header section a img {
+	width: 10em;
+	height: 4.5em;
+}
+
+.vangoghpage main h1 {
+	font-family: 'GothamBook';
+	font-size: 2em;
+	line-height: 1.2em;
+	color: var(--color-text);
+	margin-top: 2.5em;
+  }  
+
+  .vangoghpage main h2 {
+	font-family: 'GothamBook';
+	font-size: 1.8em;
+	line-height: 1.2em;
+	color: var(--color-text);
+	margin-top: 2.5em;
+  }  
+  
+  .vangoghpage main ul li {
+	margin-left: -2.5em;
+	margin-top: -1.2em;
+  }
+
+  .vangoghpage main ul li img {
+	width: 1em;
+	height: 1em;
+	margin-right: .5em;
+  }
+
+  .vangoghpage main ul li a {
+	font-family: 'GothamBook';
+	text-decoration: none;
+	font-size: 1em;
+	color: var(--color-text);
+	display: inline-block;
+	transform: translateY(-1.3px);
+  }
+
+  .vangoghpage main p{
+	font-family: "GothamBook";
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-top: 2em;
+  }
+
+  .vangoghpage main hr {
+	height: .2em;
+	background-color: black;
+	border-color: black;
+	margin-bottom: 2em;
+}
+
+.vangoghpage section ul li {
+	font-family: "GothamBook";
+	font-size: 1.2em;
+	padding-left: 0.5em;
+}
+
+.vangoghpage section section:first-of-type ul li a {
+	font-family: 'GothamBook';
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.vangoghpage section section:first-of-type a {
+	font-family: 'GothamBook';
+	text-decoration: none;
+	font-size: 1.7em;
+	line-height: 1em;
+	color: var(--color-text);
+	padding-top: 3em;
+  }
+
+.afbeeldingen {
+	padding-bottom: 1em;
+}
+
+.bulletarrow {
+	height: 1.2em;
+	display: inline-block;
+	transform: translateY(4px);
+}
+
+.vangoghpage section section:nth-of-type(2) ul li a {
+	font-family: 'GothamBook';
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.vangoghpage section section:nth-of-type(2) a {
+	font-family: 'GothamBook';
+	text-decoration: none;
+	font-size: 1.5em;
+	line-height: 1em;
+	color: var(--color-text);
+	padding-top: 3em;
+	margin-right: .2em;
+} 
+
+
+
+
+.vangoghpage section section > div {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+details {
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	padding: 0.5em 0.5em 0;
+	font-family: sans-serif;
 	border: none;
+  }
+
+details ul li {
+	list-style-type: none;
+}
+
+details ul li a {
+	line-height: 3em;
+}
+  
+  summary {
+	font-weight: bold;
+	margin: -0.5em -0.5em 0;
+	padding: 0.5em;
+  }
+  
+  details[open] {
+	padding: 0.5em;
+  }
+  
+  details[open] summary {
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 0.5em;
+  }
+  
+
+
+  /*MEDIA*/
+  @media(min-width: 60em) {
+	.homepage main {
+		display: flex;
+		width: 200vw;
+		overflow-x: auto;
+	}
+
+	.homepage main div {
+		min-width: 70vw;
+		padding-left: 4em;
+		margin-right: -10em;
+		margin-top: -3em;
+	}
+
+	.homepage main div h1 {
+		font-size: 3.6em;
+		max-width: 60%;
+	}
+
+	.homepage main div h4 {
+		font-size: 1.2em;
+		max-width: 60%;
+	}
+
+	.homepage main section:first-of-type {
+		height: 35em;
+		width: 25em;
+		margin-right: 3em;
+	}
+
+	.homepage main section:nth-of-type(2),
+	.homepage main section:nth-of-type(3),
+	.homepage main section:nth-of-type(4) {
+		height: 35em;
+		width: 25em;
+		margin-top: 5.5em;
+		margin-right: 3em;
+	}
+
+	.homepage main section:first-of-type div {
+		margin-top: 1.5em;
+		margin-left: -4em;
+	}
+
+	.homepage main section:nth-of-type(2) div {
+		margin-top: 2.3em;
+		margin-left: -4em;
+	}
+
+	.homepage main section:nth-of-type(3) div {
+		margin-top: .6em ;
+		margin-left: -4em;
+	}
+	
+	.homepage main section:nth-of-type(4) div {
+		margin-top: 3.5em;
+		margin-left: -4em;
+	}
+	
+	.homepage main footer {
+		min-width: 70vw;
+		padding-left: 10em;
+		margin-top: -3em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.homepage main footer p:first-of-type {
+	font-size: 4em;
+	}
+
+	.homepage main footer img {
+		width: 10em;
+	}
+
+	.homepage main footer ul{
+		margin-top: -5em;
+	}
+
+	.vangoghpage main section section:first-of-type {
+		
+		grid-template-columns: repeat(3, 1fr);
+	}
+
   }
 
   
-/*MEDIA*/
-
  
+ 
+
+
+		
