@@ -2,7 +2,7 @@
 console.log("hi");
 
 /* 1. Selecteer de button waar je op kan klikken (hamburger icoontje) */
-var openButton = document.querySelector("header section > section button:first-of-type");
+var openButton = document.querySelector("header button:first-of-type");
 var deNav = document.querySelector("nav");
 
 /* 2. Luister naar een klik op die button en voer een functie uit */
