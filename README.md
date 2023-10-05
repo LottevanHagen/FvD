@@ -55,29 +55,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - De site had best wat linkjes die duidelijker beschreven mogen worden voor de screenreader.
+  - Ze maken onregelmatig gebruik van 'H'tjes.
+  - De site heeft geen animaties of video's.
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Ze skippen niks op de website, je eindigt altijd weer in het menu.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - Skip link toevoegen
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Je kan makkelijk door de website heen met tab en shift tab. De besturing is vrij gemakkelijk.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hoeft niet opgelost te worden.
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  - Ik heb niet de kans gekregen om de shock bandjes te proberen
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De website maakt op dit moment goed gebruik van kleuren. Er is een duidelijk contrast. Behalve in de afbeeldingen, waar het soms wat moeilijk is om de witte tekst te kunnen lezen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het font in de foto's wat dikker te maken zodat de leesbaarheid verbetert.
 
 </details>
 
