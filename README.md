@@ -280,8 +280,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Pauline, studentassistent
+  2. Mijn vader, ICT-er
+  3. Code-pen van Danny voor de grid
 
 </details>
