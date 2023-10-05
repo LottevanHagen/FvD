@@ -30,17 +30,17 @@
 
   @font-face {
 	font-family: 'Gotham';
-	src: url('./assets/Gotham-Font/GothamLight.woff') format('woff');
+	src: url('../assets/Gotham-Font/GothamLight.woff') format('woff');
   }
 
   @font-face {
 	font-family: 'GothamBook';
-	src: url('./assets/Gotham-Font/GothamBook.woff') format('woff');
+	src: url('../assets/Gotham-Font/GothamBook.woff') format('woff');
   }
 
   @font-face {
 	font-family: 'GothamMedium';
-	src: url('./assets/Gotham-Font/GothamMedium.woff') format('woff');
+	src: url('../assets/Gotham-Font/GothamMedium.woff') format('woff');
   }
 
   
